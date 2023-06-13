@@ -117,7 +117,7 @@ public class MenuUsuario extends JFrame {
 		btnRegistro.add(labelRegistro);
 		
 		JPanel btnBusqueda = new JPanel();
-		btnBusqueda.addMouseListener(new MouseAdapter() {
+		btnBusqueda.addMouseListener(new MouseAdapter() { 
 			@Override
 			public void mouseEntered(MouseEvent e) {
 				btnBusqueda.setBackground(new Color(118, 187, 223));				
